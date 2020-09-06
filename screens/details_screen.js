@@ -40,6 +40,7 @@ const DetailsScreen = ({
             <TouchableOpacity 
             style = {{
                 padding: 20,
+                marginBottom: 20,
                 backgroundColor: "blue"
             }}
             onPress={() => navigation.goBack()}
